@@ -11,7 +11,7 @@ Launch the overlay DaemonSet:
 kubectl apply -f https://raw.githubusercontent.com/reylejano/rancher-overlay-test/master/overlaytest.yaml
 ```
 
-Wait till until the DaemonSet has rolled out:
+Wait until the DaemonSet has rolled out:
 
 ```
 kubectl rollout status ds/overlaytest -w
