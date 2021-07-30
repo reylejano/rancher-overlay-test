@@ -25,3 +25,9 @@ Run the script to test:
 ```
 wget -O- https://raw.githubusercontent.com/reylejano/rancher-overlay-test/master/overlaytest.sh | sh
 ```
+
+Cleanup and delete the DaemonSet:
+
+```
+kubectl delete ds overlaytest
+```
