@@ -1,3 +1,5 @@
+Documentation reference: https://rancher.com/docs/rancher/v2.5/en/troubleshooting/networking/
+
 The Rancher overlay test tests the overlay network.
 
 To test the overlay network create the DaemonSet that runs the swiss-army-knife container on every node.
@@ -12,7 +14,7 @@ kubectl apply -f https://raw.githubusercontent.com/reylejano/rancher-overlay-tes
 Wait till until the DaemonSet has rolled out:
 
 ```
-kubectl rollout status ds/overlaytest -w returns: daemon set "overlaytest" successfully rolled out.
+kubectl rollout status ds/overlaytest -w
 ...
 
 daemonset "overlaytest" successfully rolled out
